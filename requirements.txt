@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pandas>=2.2,<3
 numpy>=1.26,<3
 scikit-learn>=1.5,<2
@@ -10,3 +11,14 @@ matplotlib>=3.9,<4
 jupyter>=1.1,<2
 nbformat>=5.10,<6
 pytest>=8.0,<9
+=======
+streamlit>=1.32.0
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+statsmodels>=0.14.0
+plotly>=5.18.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+pydantic>=2.0.0
+>>>>>>> 75a6bdf986070639ea184490b34c5168f8484e6b
