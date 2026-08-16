@@ -1,0 +1,19 @@
+{
+  "predictor_features": [
+    "recency",
+    "history",
+    "mens",
+    "womens",
+    "zip_code",
+    "newbie",
+    "channel",
+    "history_segment"
+  ],
+  "excluded_outcomes": [
+    "visit",
+    "conversion",
+    "spend"
+  ],
+  "treatment_assignment_excluded": true,
+  "encoding": "OneHotEncoder(handle_unknown='ignore', sparse_output=False)"
+}

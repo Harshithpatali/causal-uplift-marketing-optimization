@@ -1,0 +1,24 @@
+{
+  "dataset": "hillstrom_email_marketing.csv",
+  "rows": 64000,
+  "train_rows": 48000,
+  "test_rows": 16000,
+  "random_seed": 42,
+  "test_size": 0.25,
+  "uplift_threshold": 0.0,
+  "features": [
+    "recency",
+    "history",
+    "mens",
+    "womens",
+    "zip_code",
+    "newbie",
+    "channel",
+    "history_segment"
+  ],
+  "treatments": [
+    "Mens E-Mail",
+    "Womens E-Mail",
+    "No E-Mail"
+  ]
+}
