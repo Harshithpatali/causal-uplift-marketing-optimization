@@ -112,3 +112,15 @@ The emphasis is on causal reasoning and evaluation discipline rather than treati
 
 **Author:** Harshith Devaraja  
 **Focus:** Statistical inference · Causal modelling · Decision science
+
+ 
+## Reproducibility, evaluation and intended use
+
+```bash
+pip install -r requirements.txt
+python src/run_analysis.py
+pytest -q
+streamlit run app/streamlit_app.py
+```
+
+See [Model Card](docs/MODEL_CARD.md) for dataset scope, statistical design, limitations and the distinction between randomized average effects and estimated individual uplift rankings. The current model policy has not demonstrated superiority to emailing everyone; budget outputs are assumption-driven scenarios, not realized campaign profit.
