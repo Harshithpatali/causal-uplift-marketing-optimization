@@ -124,3 +124,8 @@ streamlit run app/streamlit_app.py
 ```
 
 See [Model Card](docs/MODEL_CARD.md) for dataset scope, statistical design, limitations and the distinction between randomized average effects and estimated individual uplift rankings. The current model policy has not demonstrated superiority to emailing everyone; budget outputs are assumption-driven scenarios, not realized campaign profit.
+
+
+## Reproducible experiment report
+
+See [Portfolio Experiment Report](docs/PORTFOLIO_EXPERIMENT_REPORT.md) for the committed ATE estimates, held-out uplift ranking results, policy-value caveats and reproducible run commands. The randomized experiment supports average email effects; current evidence does not establish that model targeting outperforms emailing everyone.
