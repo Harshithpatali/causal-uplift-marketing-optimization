@@ -6,13 +6,17 @@ on:
     paths:
       - "src/**"
       - "tests/**"
-      - ".github/workflows/tests.yml"\n      - "README.md"\n      - "docs/**"
+      - ".github/workflows/tests.yml"
+      - "README.md"
+      - "docs/**"
   pull_request:
     branches: [main]
     paths:
       - "src/**"
       - "tests/**"
       - ".github/workflows/tests.yml"
+      - "README.md"
+      - "docs/**"
 
 permissions:
   contents: read
